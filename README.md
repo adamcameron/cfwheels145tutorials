@@ -1,4 +1,12 @@
-# cfwheels145tutorials
+# Docker environment for CFWheels tutorials
+
+This is a quick repo to strum up minimum containers for working through the https://guides.cfwheels.org/v1.4/docs/beginner-tutorial-hello-world tutorials. It's not very flashy.
+
+Note: most of the _code_ is from the CFWheels download
+at https://guides.cfwheels.org/page/download. It's not my code, and I am not claiming it is. 
+Obviously CFWheels licensing applies to all that stuff.
+
+My stuff here is just the stuff around Docker (that `/docker` directory).
 
 
 ## Installation
