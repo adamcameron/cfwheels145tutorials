@@ -48,7 +48,7 @@ HTTP/1.1 200
 
 ```
 cd /var/www/cfwheels145tutorials/docker
-docker exec --interactive --tty cfwheels145tutorials_nginx_1 /bin/bash
+docker exec --interactive --tty cfwheels145tutorials_nginx_1 /bin/ash
 curl -I http://localhost/index.cfm
 ```
 
