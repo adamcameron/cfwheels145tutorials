@@ -32,9 +32,12 @@ http://cfwheels145tutorials.lucee:8888/lucee/admin.cfm
 ### Containers
 
 #### Lucee
+
+```
 cd /var/www/cfwheels145tutorials/docker
 docker exec --interactive --tty cfwheels145tutorials_lucee_1 /bin/bash
 curl -I http://localhost:8888/index.cfm
+```
 
 ```
 HTTP/1.1 200
@@ -42,9 +45,12 @@ HTTP/1.1 200
 ```
 
 #### Nginx
+
+```
 cd /var/www/cfwheels145tutorials/docker
 docker exec --interactive --tty cfwheels145tutorials_nginx_1 /bin/bash
 curl -I http://localhost/index.cfm
+```
 
 ```
 HTTP/1.1 200
@@ -52,10 +58,13 @@ HTTP/1.1 200
 ```
 
 #### MySQL
+
+```
 cd /var/www/cfwheels145tutorials/docker
 docker exec --interactive --tty cfwheels145tutorials_mysql_1 /bin/bash
 mysql --database=cfwheels145tutorials --user=cfwheels145tutorials --password=1234
 SELECT @@VERSION; 
+```
 
 ```
 +-----------+
